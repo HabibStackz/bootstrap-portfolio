@@ -1,0 +1,52 @@
+/* global variables for color palette */
+:root {
+    --gold: #f6e0a4;
+    --grey: rgb(27, 27, 27);
+    --brown: #503911;
+}
+
+
+#navbarSupportedContent > ul a {
+    color: var(--gold);
+    margin: 0px 40px 0 0px;   
+}
+
+.navWrapper {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: var(--grey);
+    background-color: var(--gold);
+    padding: 0 10px 0 5%;
+    margin: 0 50px 0 0px;
+
+}
+
+/* .heroBanner {
+    background-image: url(../images/hero.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 0%;
+} */
+
+.customNavbar {
+    width: 100%;
+}
+
+h1 {
+    background-color: #503911;
+}
+
+.header {
+    color: var(--grey);
+    border-right: 5px solid #503911 !important;
+}
+
+.headerText {
+    text-align: justify;
+    margin-left: 20px;
+}
+
