@@ -42,11 +42,19 @@ h1 {
 
 .header {
     color: var(--grey);
-    border-right: 5px solid #503911 !important;
+    /* border-right: 5px solid #503911 !important; */
 }
 
 .headerText {
-    text-align: justify;
-    margin-left: 20px;
+    margin-left: 5px;
+    font-size: x-small;
 }
 
+
+
+#contact-details ul, li, a {
+    font-size: small;
+    text-decoration: none;
+    color: #503911; 
+    list-style: none;
+  }
