@@ -1,6 +1,6 @@
 # bootstrap-portfolio
- portfolio for Habib Hakeem built with bootstrap
-Habib Hakeem's Portfolio Website
+ Portfolio for Habib Hakeem built with bootstrap  
+ 
 This is a personal Web Developer portfolio website built using Bootstrap, showcasing the skills, projects, and information about Habib Hakeem.
 
 ## Table of Contents
