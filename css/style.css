@@ -58,3 +58,78 @@ h1 {
     color: #503911; 
     list-style: none;
   }
+
+  .workBanner {
+    background-image: url("../images/workimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+
+  .huddle{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/huddle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .prework{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/study-guide.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .horiseon{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/horiseon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .pf-website{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+
+  .huddle:hover, .prework:hover, .pf-website:hover, .horiseon:hover{
+    background-blend-mode: normal;
+    cursor: pointer;
+  }
+
+  .workflex {
+    display: grid;
+  }
+
+  h5{
+    background-color: var(--gold);
+    width: fit-content;
+    padding: 5;
+  }
