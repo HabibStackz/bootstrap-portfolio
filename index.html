@@ -8,6 +8,7 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -26,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About me</a>
+                        <a class="nav-link active" aria-current="page" href="#aboutMeText">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Work</a>
+                        <a class="nav-link active" aria-current="page" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="#contact-details">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                        <a class="nav-link active" aria-current="page" href="#resume">Resume</a>
                     </li>
 
                     </li>
@@ -56,13 +57,14 @@
     </section>
 
     <!--About me -->
-    <section class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
+    <section id="about" class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
         <div class="row">
-            <div id="about"
+            <div
                 class="header d-none d-sm-block col-12 col-md-2 pe-3 text-center text-md-end border-5 border-dark border-end">
                 <h4>About Me</h4>
             </div>
             <div class="paragraph col-sm-12 col-md-10 col-lg-10">
+                <h4 class="text-center d-block d-sm-none">About Me</h4>
                 <p id="aboutMeText" class="headerText text-center">
                     <strong>Hello and welcome to my portfolio!</strong>
                     <br />
@@ -81,6 +83,25 @@
             </div>
     </section>
 
+<!-- skills -->
+<section id="about" class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
+    <div class="row">
+        <div
+            class="header d-none d-sm-block col-12 col-md-2 pe-3 text-center text-md-end border-5 border-dark border-end">
+            <h4>Skills</h4>
+        </div>
+        <div class="paragraph col-sm-12 col-md-10 col-lg-10">
+            <h4 class="text-center d-block d-sm-none">Skills</h4>
+            <p id="aboutMeText" class="headerText text-center">
+                <strong>These are my skills!</strong>
+                <br />
+                <br>
+                
+                    I am proficient in using the following languages and tools; <span class="fst-italic">HTML, CSS, JavaScript, Python, React, Figma & Photoshop.
+                </span>
+            </p>
+        </div>
+</section>
     <!-- work -->
     <section class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
         <div class="row">
@@ -89,6 +110,7 @@
                 <h4>Work</h4>
             </div>
             <div class="carousel col-sm-12 col-md-10 col-lg-10">
+                <h4 class="text-center d-block d-sm-none">Work</h4>
                 <div class="workBanner">
                     <div id="carouselExample" class="carousel slide">
                         <div class="carousel-inner">
@@ -161,9 +183,10 @@
                 <h4>Contact Me</h4>
             </div>
             <div class="paragraph col-sm-12 col-md-10 col-lg-10">
-                <ul id="contact-details">
+                <h4 class="text-center d-block d-sm-none">Contact Me</h4>
+                <ul id="contact-details" class="d-block d-md-flex text-center me-4">
                     <li>
-                        <a class="github" target="_blank"
+                        <a class="github btn btn-dark" type="button" target="_blank"
                             href="https://github.com/HabibStackz"><strong>Github</strong></a>
                     </li>
 
@@ -180,9 +203,9 @@
             </div>
     </section>
     <!--Resume -->
-    <section class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
+    <section id="resume" class="container mt-4 pe-sm-3 pe-lg-5 fs-6">
         <div class="row">
-            <div id="about"
+            <div
                 class="header d-none d-sm-block col-12 col-md-2 pe-3 text-center text-md-end border-5 border-dark border-end">
                 <h4>Resume</h4>
             </div>
@@ -198,7 +221,66 @@
             </div>
     </section>
 
+    <div class="container-fluid mt-5">
 
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+                <section>
+                    <ul class="footer-nav ms-0 ps-0 d-block d-md-flex justify-content-center text-center">
+                        <li>
+                            <a href="#aboutMeText">About me</a>
+                        </li>
+                        <li>
+                            <a href="#work">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact-details">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#resume">Resume</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2023 Copyright: Habib Hakeem
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>
+    <!-- End of .container -->
 
 
     <!-- <section class="resumeButton">

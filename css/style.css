@@ -10,7 +10,11 @@
     color: var(--gold);
     margin: 0px 40px 0 0px;   
 }
-
+#navbarSupportedContent > ul a:hover {
+    color: white;
+    margin: 0px 40px 0 0px;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.7);   
+}
 .navWrapper {
     padding: 0;
 }
@@ -76,6 +80,7 @@ h1 {
   .workBanner3 {
     background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
     height: 40vh;
   }
@@ -133,9 +138,15 @@ h1 {
     color: rgb(27, 27, 27);
   }
 
-  .huddle:hover, .prework:hover, .pf-website:hover, .horiseon:hover{
+  .huddle:hover, .prework:hover, .pf-website:hover, .horiseon:hover {
     background-blend-mode: normal;
     cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.3);
+  }
+
+  .btn-dark:hover{
+    background-color: #503911;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.3);
   }
 
   .workflex {
@@ -146,4 +157,15 @@ h1 {
     background-color: var(--gold);
     width: fit-content;
     padding: 5;
+  }
+
+  #contact-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav a{
+    color: white !important;
+    justify-content: space-evenly;
+    margin: 5px;
   }
