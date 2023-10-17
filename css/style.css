@@ -1,0 +1,171 @@
+/* global variables for color palette */
+:root {
+    --gold: #f6e0a4;
+    --grey: rgb(27, 27, 27);
+    --brown: #503911;
+}
+
+
+#navbarSupportedContent > ul a {
+    color: var(--gold);
+    margin: 0px 40px 0 0px;   
+}
+#navbarSupportedContent > ul a:hover {
+    color: white;
+    margin: 0px 40px 0 0px;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.7);   
+}
+.navWrapper {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: var(--grey);
+    background-color: var(--gold);
+    padding: 0 10px 0 5%;
+    margin: 0 50px 0 0px;
+
+}
+
+/* .heroBanner {
+    background-image: url(../images/hero.jpg);
+    background-size: contain;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 0%;
+} */
+
+.customNavbar {
+    width: 100%;
+}
+
+h1 {
+    background-color: #503911;
+}
+
+.header {
+    color: var(--grey);
+    /* border-right: 5px solid #503911 !important; */
+}
+
+.headerText {
+    margin-left: 5px;
+    font-size: x-small;
+}
+
+
+
+#contact-details ul, li, a {
+    font-size: small;
+    text-decoration: none;
+    color: #503911; 
+    list-style: none;
+  }
+
+
+  .workBanner {
+    background-image: url("../images/workimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    
+  }
+  .workBanner2 {
+    background-image: url("../images/huddle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  .workBanner3 {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 40vh;
+  }
+
+  .huddle{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/huddle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .prework{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/study-guide.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .horiseon{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/horiseon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+  .pf-website{
+    background: rgba(80, 72, 28, 0.5);
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    border: 5px solid #f6e0a4;
+    border-radius: 15px;
+    background-blend-mode: darken;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+  }
+
+  .huddle:hover, .prework:hover, .pf-website:hover, .horiseon:hover {
+    background-blend-mode: normal;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.3);
+  }
+
+  .btn-dark:hover{
+    background-color: #503911;
+    box-shadow: 5px 5px 10px rgba(80, 72, 28, 0.3);
+  }
+
+  .workflex {
+    display: grid;
+  }
+
+  h5{
+    background-color: var(--gold);
+    width: fit-content;
+    padding: 5;
+  }
+
+  #contact-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav a{
+    color: white !important;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
