@@ -59,10 +59,24 @@ h1 {
     list-style: none;
   }
 
+
   .workBanner {
     background-image: url("../images/workimg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 40vh;
+    
+  }
+  .workBanner2 {
+    background-image: url("../images/huddle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+  }
+  .workBanner3 {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
     height: 40vh;
   }
 
